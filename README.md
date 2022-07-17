@@ -6,4 +6,4 @@ After the data is loaded, the data is split into two parts: namely, train data a
 
 By creating a correlation heatmap, we can determine which features need to be removed to eliminate multicollinearity. After making sure there is no multicollinearity, we can train the data. First, we need to choose the best lambda value on this dataset using Ridge and Lasso regression modeling.
 
-Then we can do a diagnostic study to see the value of R2. The result obtained on the Lasso and Ridge is above 70%
+Then we can do a model evaluation and diagnostic study to see the value of R2. The result obtained on the Lasso and Ridge is above 70%
